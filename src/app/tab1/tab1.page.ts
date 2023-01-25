@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
-
+  constructor() { }
+  ngOnInit() {
+    let numero = 10;
+    numero =20;
+    console.log(numero)
+  }
 }
